@@ -36,5 +36,3 @@ The work was completed as part of Salesforce Trailhead’s "Automate Your Busine
 ## Reflection
 This project gave me hands-on experience with Salesforce case management automation.  
 Key learning: how assignment and escalation rules can cut down resolution time and reduce errors in customer support workflows.  
-## Completion Badge
-![Trailhead Badge](images/completion-badge.png)
