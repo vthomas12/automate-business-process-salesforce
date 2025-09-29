@@ -16,22 +16,17 @@ The work was completed as part of Salesforce Trailhead’s "Automate Your Busine
 1. **Created a Billing Support Queue**
    - Added two users: Fumiko Suzuki and Aaron Hartzler.
    - Configured it to handle billing-related cases.  
-   ![Billing Support Queue](images/billing-support-queue.png)
 
 2. **Built Case Assignment Rule**
    - Routed all *new billing cases* to the Billing Support Agents queue.  
-   ![Assignment Rule](images/assignment-rule.png)
 
 3. **Created Escalation Rule**
    - Escalated any case with reason = *Performance* after 1 hour.  
    - Notification sent to manager using a preconfigured Salesforce email template.  
-   ![Case Escalation](images/case-escalation.png)
 
 4. **Test Cases**
    - Billing case: *Renew Warranty* → successfully routed to Billing Support Agents.  
    - Product Support case: *Laptop not working* → correctly escalated as expected.  
-   ![New Billing Case](images/new-case-billing.png)  
-   ![Product Support Case](images/product-support-case.png)
 
 ## Results
 - Cases routed automatically without manual reassignment.  
